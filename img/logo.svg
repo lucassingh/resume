@@ -1,0 +1,39 @@
+<svg width="200" height="200" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 301.5 459.5" style="enable-background:new 0 0 301.5 459.5;" xml:space="preserve">
+	 <defs>
+	   <style>
+
+	     #Layer0_0_2_STROKES{
+	       stroke-dasharray:3000;
+	       stroke-offset:0;
+	       -webkit-animation: dash 3s linear forwards;
+	       -o-animation: dash 3s linear forwards;
+	       -moz-animation: dash 3s linear forwards;
+	       animation: dash 3s linear forwards;
+				 fill: #Ff8c74;
+	     }
+
+	     @-webkit-keyframes dash{
+	       from{
+	         stroke-dashoffset:3000;
+	       }
+	       to{
+	         stroke-dashoffset:0;
+	       }
+	     }
+
+			 #Layer0_0_2_STROKES{
+			 color:#Ff8c74;
+			 }
+			 path {
+  	 			fill: ;
+				}
+
+	   </style>
+	 </defs>
+<g>
+	<path id="Layer0_0_2_STROKES" style="fill:none;stroke:#Ff8c74;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;" d="
+		M95.9,231.1l-45.5-26v-66.8L152,75.8L254,129.7v34.6 M43.9,300.7v28.2L152,391.4l106.1-56.1v-64.8l-43.6-30.2 M5.1,90.9v274.6
+		l144.4,86.3l147.2-86.3V90.9L149.5,6.5L5.1,90.9z M130.2,170.8v138.8l45.8-26.5"/>
+</g>
+</svg>

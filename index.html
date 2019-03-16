@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<link rel="stylesheet" type="text/css" href="css/preloader.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">	
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/contacto.css"/>
+    <title>CV Lucas singh</title>
+  </head>
+  <body>
+	<div id="preloader">
+		<div id="loader">
+			<div class="container-loader">
+				<object>
+				<embed class="animated infinite pulse" src="img/logo.svg" width="200" height="200">
+				</object>
+			</div>
+		</div>
+	</div>
+    <div id="fullpage">
+      <div class="section">
+        <div class="container-1">
+          <div class="cont1"><div class="btn animated infinite bounce delay-2s"><a href=""><p>+</p></a></div></div>
+          <img id="img" class="img-portada" src="img/cv.jpg" alt=""/>
+          <div id="content" class="cont3">
+            <h1 class="title">lucas singh</h1>
+            <p class="subtitle">web UI developer.</p>
+		  </div>				
+		</div>		
+      </div>
+      <div class="section" id="none">
+        <div class="container-2" id="color">
+          <div class="cont-left">
+			  <h2 class="titulo-cv-edu">Educación</h2>
+			  <p class="texto"><span class="negrita">Técnico superior en programacíon:</span> (UTN) 2015 - 2016</p>
+			  <p class="texto"><span class="negrita">Ingeniería de sistemas</span> (IUA) 2017 - actualidad</p><br>
+			  <h2 class="titulo-cv-expe">Experiencia laboral</h2>
+			  <p class="texto"><span class="negrita">Fundación Arsayian:</span> maquetador web 2015 - 2016</p>
+			  <p class="texto"><span class="negrita">Globadlity:</span> maquetador web - angular dev 2016-2017</p>
+			  <p class="texto"><span class="negrita">Globant:</span> front-end UI - angular dev 2018-actualidad</p><br>
+			  <h2 class="titulo-cv-perso">Personal skills</h2>
+			  <p class="texto">Proactividad, honestidad, aprendizaje constante</p>
+		  </div>
+          <div class="cont-right">
+				<h2 class="titulo-cv-tec">Technical skills</h2>
+				<p class="texto">HTML5, CSS3, javaScript, Bootstrap, Jquery</p>
+				<p class="texto">Angular 5 framework. </p><br>
+				<h2 class="titulo-cv-day">Daily management</h2>
+				<p class="texto">gitHub, SCRUM, JIRA, Confluence. </p><br>
+				<h2 class="titulo-cv-idio">Idioma: Inglés</h2>
+				<p class="texto"><span class="negrita">Lectocomprensión:</span> completa</p>
+				<p class="texto"><span class="negrita">Oral:</span> intermedia</p><br>						
+		  </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="cont-portfolio">
+           <a href="" target="_blank"><h3 class="title-portfolio">misión</h3></a> 
+		   <a href="" target="_blank"><h3 class="title-portfolio">disney</h3></a>
+		   <a href="" target="_blank"><h3 class="title-portfolio">gitHub</h3></a>
+		   <a href="" target="_blank"><h3 class="title-portfolio">finder</h3></a>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+		<div class="container" id="color-2">
+			<div class="cont-contacto">
+				<div class="cont-derecho">
+				<h2 class="titulo">Contacto</h2>
+				<a href="mailto:lucas.singh10@gmail.com?Subject=Hello%20again" target="_blank" class="bttn-dark">ENVIAR</a>
+				</div>
+				<div class="cont-central">
+				<div class="cont-img ">
+					<img class="img data-tilt" src="img/dino.png" alt="">
+					<div id="contacto"></div>
+				</div>
+				</div>
+				<div class="cont-izquierdo">
+				<p class="parrafo"> Lucas <span id="cursiva" class="subtitulo">Singh</span><br>
+					lucas.singh10@gmail.com <br>
+					+549(3462) 565888 <br>
+					Ciudad de Córdoba, <span id="cursiva" class="subtitulo">Argentina</span>
+				</p>
+				<div class="cont-social">
+					<a class="icon" href="https://www.linkedin.com/in/lucassingh/" target="_blank" class=""><i class=" fab fa-linkedin-in"></i></a>					
+				</div>
+				</div>
+			</div>
+		</div>
+      </div>
+    </div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="js/preloader.js"></script>
+	<script src="js/jquery.lazylinepainter-1.7.0.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/contacto.js"></script>
+	<script src="js/fullpage.js"></script>
+	<script src="js/tilt.jquery.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  </body>
+  <script>
+    new fullpage("#fullpage", {
+      anchors: ["page1", "page2", "page3", "page4"],
+      navigation: true
+    });
+  </script>
+</html>
