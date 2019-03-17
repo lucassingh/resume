@@ -95,8 +95,9 @@ a {
 }
 
 .btn p {
+  font-family: subtitle;
   color: #27305a;
-  font-size: 60px;
+  font-size: 35px;
 }
 
 /*-------section2---------*/
