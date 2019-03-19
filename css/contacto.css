@@ -256,7 +256,7 @@ a:hover{
    }
   }
   
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 600px){
 
     .titulo {
       font-size: 8vw;
@@ -280,7 +280,7 @@ a:hover{
       font-size: 14px;
       }
       .cont-img {
-        margin-top: 0px;   
+        margin-top: -58px;   
     }
       .icon {
       font-size: 30px;

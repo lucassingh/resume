@@ -287,7 +287,11 @@ a {
 	}
 	.container-1{
 		flex-direction: column-reverse;
-	}
+  }
+  
+  .title-portfolio {    
+    font-size: 55px;   
+}
 
 	.title {		
 		font-size: 78px;
